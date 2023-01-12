@@ -11,6 +11,8 @@ t = length(samples);
 M = zeros(1, uint64((t/(2*L))+1));
 P = zeros(1, uint64((t/(2*L))+1));
 R = zeros(1, uint64((t/(2*L))+1));
+phi = zeros(1, uint64((t/(2*L))+1));
+offset = zeros(1, uint64((t/(2*L))+1));
 compt = 1;
 
 % Transposer les échantillons pour les mettre en ligne
@@ -31,9 +33,18 @@ for d = 0:t-2*L
         M(compt) = 0;
         disp(['corr = ', num2str(P(compt)), ' energy = ', num2str(R(compt)), ' for d = ', num2str(d), ' taille = ', num2str(t)])
     end
+    phi(compt) = angle(P(compt));
+    offset(compt) = phi(compt)/(pi*50e-9);
     compt = compt+1;
 end
 
 % Afficher la métrique M(d)
+subplot(3,1,1)
 stem(M);
 title('M');
+subplot(3,1,2);
+stem(offset);
+title('offset');
+subplot(3,1,3);
+stem(phi);
+title('phi');
