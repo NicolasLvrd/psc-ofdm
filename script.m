@@ -71,7 +71,7 @@ for d = start:t-2*L
 end
 
 res2 = find(M1 == max(M1));
-deltaf = mean(offset(~isnan(offset)));
+deltaf = median(offset(~isnan(offset)));
 
 test = angle(P(29986));
 test2 = test/(pi*T);
