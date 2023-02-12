@@ -7,6 +7,7 @@ prefix_len = 10;
 path_delays = [0 Te 10*Te]; %0 Te 10*Te
 path_gains = [0 -3 -6]; %0 -3 -6
 
+%{
 %%% SERIE MESURES 1 : VARIATION DE LA TAILLE DE l'IFFT %%%
 pilots_rate = 0.125;
 fprintf('==> SERIE MESURES 1, taux de pilotes fixé à %.3f\n\n', pilots_rate);
@@ -52,11 +53,11 @@ for i = 1:length(N_ST_arr)
         save(filename, 'res', '-mat'); % enregistrement à chaque mesure de SNR au cas où ça crash
     end
 end
-
+%}
 %%% SERIE MESURES 2 : VARIATION DU TAUX DE PILOTES %%%
-N_ST = 128;
+N_ST = 256; %128
 fprintf('==> SERIE MESURES 2, taille IFFT fixée à %i\n\n', N_ST);
-pilots_rate_arr = [0.125 0.25 0.5];
+pilots_rate_arr = [0.25]; %
 SNR_arr = [50 35 24 18 12];
 for i = 1:length(pilots_rate_arr)
     pilots_rate = pilots_rate_arr(i);
