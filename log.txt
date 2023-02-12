@@ -1,0 +1,237 @@
+>> eval_perf
+==> SERIE MESURES 1, taux de pilotes fixé à 0.125
+
+RUN SIM : IFFT = 64 | SNR = 50
+   BER = 11.03 %
+   bitrate = 302.70 Mb/s
+   E = 1.562500e-02
+   out_data = 7
+
+RUN SIM : IFFT = 64 | SNR = 35
+   BER = 11.05 %
+   bitrate = 302.70 Mb/s
+   E = 1.562500e-02
+   out_data = 7
+
+RUN SIM : IFFT = 64 | SNR = 24
+   BER = 11.24 %
+   bitrate = 302.70 Mb/s
+   E = 1.562500e-02
+   out_data = 7
+
+RUN SIM : IFFT = 64 | SNR = 18
+   BER = 11.84 %
+   bitrate = 302.70 Mb/s
+   E = 1.562500e-02
+   out_data = 7
+
+RUN SIM : IFFT = 64 | SNR = 12
+   BER = 14.01 %
+   bitrate = 302.70 Mb/s
+   E = 1.562500e-02
+   out_data = 7
+
+RUN SIM : IFFT = 128 | SNR = 50
+   BER = 7.50 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : IFFT = 128 | SNR = 35
+   BER = 7.52 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : IFFT = 128 | SNR = 24
+   BER = 7.73 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : IFFT = 128 | SNR = 18
+   BER = 8.41 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : IFFT = 128 | SNR = 12
+   BER = 10.86 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : IFFT = 256 | SNR = 50
+   BER = 0.96 %
+   bitrate = 336.84 Mb/s
+   E = 3.906250e-03
+   out_data = 7
+
+RUN SIM : IFFT = 256 | SNR = 35
+   BER = 0.98 %
+   bitrate = 336.84 Mb/s
+   E = 3.906250e-03
+   out_data = 7
+
+RUN SIM : IFFT = 256 | SNR = 24
+   BER = 1.25 %
+   bitrate = 336.84 Mb/s
+   E = 3.906250e-03
+   out_data = 7
+
+RUN SIM : IFFT = 256 | SNR = 18
+   BER = 2.09 %
+   bitrate = 336.84 Mb/s
+   E = 3.906250e-03
+   out_data = 7
+
+RUN SIM : IFFT = 256 | SNR = 12
+   BER = 5.16 %
+   bitrate = 336.84 Mb/s
+   E = 3.906250e-03
+   out_data = 7
+
+==> SERIE MESURES 2, taille IFFT fixée à 128
+
+RUN SIM : pilots_rate = 0.125 | SNR = 50
+   BER = 7.50 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : pilots_rate = 0.125 | SNR = 35
+   BER = 7.52 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : pilots_rate = 0.125 | SNR = 24
+   BER = 7.73 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : pilots_rate = 0.125 | SNR = 18
+   BER = 8.41 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : pilots_rate = 0.125 | SNR = 12
+   BER = 10.86 %
+   bitrate = 324.64 Mb/s
+   E = 7.812500e-03
+   out_data = 7
+
+RUN SIM : pilots_rate = 0.250 | SNR = 50
+   BER = 1.08 %
+   bitrate = 278.26 Mb/s
+   E = 7.812500e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 35
+   BER = 1.10 %
+   bitrate = 278.26 Mb/s
+   E = 7.812500e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 24
+   BER = 1.37 %
+   bitrate = 278.26 Mb/s
+   E = 7.812500e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 18
+   BER = 2.19 %
+   bitrate = 278.26 Mb/s
+   E = 7.812500e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 12
+   BER = 5.18 %
+   bitrate = 278.26 Mb/s
+   E = 7.812500e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.500 | SNR = 50
+   BER = 0.11 %
+   bitrate = 185.51 Mb/s
+   E = 7.812500e-03
+   out_data = 1
+
+RUN SIM : pilots_rate = 0.500 | SNR = 35
+   BER = 0.13 %
+   bitrate = 185.51 Mb/s
+   E = 7.812500e-03
+   out_data = 1
+
+RUN SIM : pilots_rate = 0.500 | SNR = 24
+   BER = 0.38 %
+   bitrate = 185.51 Mb/s
+   E = 7.812500e-03
+   out_data = 1
+
+RUN SIM : pilots_rate = 0.500 | SNR = 18
+   BER = 1.18 %
+   bitrate = 185.51 Mb/s
+   E = 7.812500e-03
+   out_data = 1
+
+RUN SIM : pilots_rate = 0.500 | SNR = 12
+   BER = 4.08 %
+   bitrate = 185.51 Mb/s
+   E = 7.812500e-03
+   out_data = 1
+
+>> pilots_inter
+
+pilots_inter =
+
+     7
+
+>> eval_perf
+==> SERIE MESURES 2, taille IFFT fixée à 256
+
+RUN SIM : pilots_rate = 0.250 | SNR = 50
+Error using eval_perf (line 84)
+Cannot start a new command line simulation while a simulation has started for the same model.
+ 
+>> eval_perf
+==> SERIE MESURES 2, taille IFFT fixée à 256
+
+RUN SIM : pilots_rate = 0.250 | SNR = 50
+Error using eval_perf (line 84)
+Simulation aborted
+ 
+>> eval_perf
+==> SERIE MESURES 2, taille IFFT fixée à 256
+
+RUN SIM : pilots_rate = 0.250 | SNR = 50
+   BER = 0.09 %
+   bitrate = 288.72 Mb/s
+   E = 3.906250e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 35
+   BER = 0.11 %
+   bitrate = 288.72 Mb/s
+   E = 3.906250e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 24
+   BER = 0.37 %
+   bitrate = 288.72 Mb/s
+   E = 3.906250e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 18
+   BER = 1.21 %
+   bitrate = 288.72 Mb/s
+   E = 3.906250e-03
+   out_data = 3
+
+RUN SIM : pilots_rate = 0.250 | SNR = 12
+   BER = 4.24 %
+   bitrate = 288.72 Mb/s
+   E = 3.906250e-03
+   out_data = 3
